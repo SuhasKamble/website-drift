@@ -418,6 +418,15 @@ footer{
 }
 
 @media(max-width:780px){
+    .showcase .img-div{
+        height: 40vh;
+    }
+    .showcase .content-div{
+        height: 30vh;
+    }
+    .showcase .content-div h1{
+        font-size: 2.2rem;
+    }
     .nav-links{
         justify-content: space-between;
     }
@@ -463,7 +472,7 @@ footer{
    }
    .card{
        height: 350px;
-       width: 400px;
+       width: 350px;
    }
    .card-body {
        height: 60%;
@@ -475,14 +484,19 @@ footer{
    
     .photo-div{
         height: 200px;
-        width: 300px;
+        width: 200px;
     }
    .map{
        display: none;
    }
     .contact-container{
         grid-template-columns: 1fr;
+        width: 100%;
     }
+    .contact-form{
+        width: 100%;
+    }
+    
     .hello{
         padding: 1rem 0;
         height: auto;
@@ -499,7 +513,13 @@ footer{
 
 @media(max-width:550px){
     .photo-div{
-        height: 200px;
-        width: 200px;
+        height: 100px;
+        width: 120px;
     }
+    .hello-div p{
+        font-size: 14px;
+    }
+footer p{
+    font-size: 10px;
+}
 }
